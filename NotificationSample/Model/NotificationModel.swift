@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct NotificationModel: Hashable {
+struct NotificationModel: Identifiable {
+    let id = UUID()
     let title: String
     let message: String
     let time: String

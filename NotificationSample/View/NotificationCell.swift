@@ -21,8 +21,6 @@ struct NotificationCell: View {
                 Text(time)
             }.padding()
             Spacer()
-            Image(systemName: "chevron.compact.right")
-                .padding()
         }
     }
 }
